@@ -10,7 +10,7 @@ neighbourhoods, room type and Number of reviews etc. The task is to
 train a model that can predict the price of the accommodation as per
 different attributes. Basically, it’s Regression problem.
 
-Tools / Skills used
+**Tools / Skills used**
 1.	Python Programming
 2.	Jupyter notebook
 3.	Pandas
@@ -22,7 +22,7 @@ Tools / Skills used
 9.	Data Visualization
 10.	Machine Learning
 
-Data description
+**Data description**
 
 Hotel id                                                        
 Name of the hotel
@@ -39,10 +39,12 @@ Reviews per month
 Calculated host listing count
 Availability
 
-User Guide
+**User Guide**
+
 After installing the libraries in the dependencies section, you can simply run all of the cells in the notebook. This should generate all of the plots here.
 
-Building model
+**Building model**
+
 I have used Linear regression, Random forest, Lasso, Ridge, LGBMRegressor on this model. At last I got better result in LGBMRegressor.
 So I made my model by the use of LGBMRegressor in Flask.
 
